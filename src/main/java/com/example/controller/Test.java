@@ -9,6 +9,7 @@ public class Test {
 
 	@RequestMapping(value = "/greeting", method = RequestMethod.GET)
 	public String get() {
+		System.out.println("update");
 		return "My Spring boot Application.";
 	}
 }
